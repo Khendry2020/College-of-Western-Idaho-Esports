@@ -1,0 +1,39 @@
+/*
+Colors: 
+Green - #3eac19
+Turquise - #025252
+White - rgb(245, 245, 245)
+*/
+/*Remove*/
+@font-face {
+    font-family: RobotoMono;
+    src: url("..fonts/RobotoMono.ttf") format('ttf');
+}body {
+    background-color:rgb(216, 212, 212);
+}
+
+.navbar {
+    background-color: #025252;
+}
+
+.nav-link {
+    color:rgb(245, 245, 245);
+    text-decoration: none;
+    
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+footer {
+    background-color: #025252;
+}
+
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+}
