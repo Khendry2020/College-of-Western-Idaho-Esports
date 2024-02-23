@@ -1,0 +1,31 @@
+/*
+Colors: 
+Moss - #00BB31
+River - #004F59
+Mica - #C7C9C7
+*/
+#eventsHeader {
+  background-color: #004F59;
+}
+/* Events Card */
+#eventsImg {
+  padding-top: 50px;
+}
+
+#apexImg {
+  height: 200px;
+}
+
+.card {
+  background-color: #004F59;
+  color: White;
+}
+
+.card .btn {
+  background-color: #C7C9C7;
+  color: #025252;
+}
+
+.row {
+  padding-top: 50px;
+}

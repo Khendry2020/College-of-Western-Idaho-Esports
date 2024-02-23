@@ -1,0 +1,47 @@
+/*
+Colors: 
+Moss - #00BB31
+River - #004F59
+Mica - #C7C9C7
+*/
+/* Landing Image/Text */
+#landing {
+  position: relative;
+  text-align: center;
+}
+
+#landing a {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  background-color: #004F59;
+  color: White;
+}
+
+/* Info Cards */
+.card {
+  background-color: #004F59;
+  color: White;
+}
+#ourTeam {
+  padding-top: 5%;
+  padding-left: 15%;
+}
+
+#Events {
+  padding-top: 5%;
+  padding-left: 40%;
+}
+
+#register {
+  padding-top: 5%;
+  padding-left: 15%;
+}
+
+/* Footer Styleing */
+
+/* ADD MOBILE STYLING */
