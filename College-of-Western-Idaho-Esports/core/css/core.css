@@ -4,21 +4,31 @@ Moss - #00BB31
 River - #004F59
 Mica - #C7C9C7
 */
+
+:root {
+  --river: #004F59;
+  --mica: #C7C9C7;
+  --moss: #00BB31;
+}
+
 @font-face {
   font-family: 'Mulish';
   src: url("../fonts/Mulish-Light.ttf") format("ttf");
 }
 
 body {
-  background-color: #C7C9C7;
+  background-color: white;
   font-family: 'Mulish';
-  color: #C7C9C7;
+  color: White;
 }
 
+/* Navbar */
 .navbar {
-  background-color: #004F59;
+  background-color: var(--river);
   font-family: 'Mulish';
   padding-right: 100px;
+  font-size: 18px;
+  font-weight: bold
 }
 
 .nav-link {
@@ -27,17 +37,21 @@ body {
 }
 
 .nav-link:hover {
-  color: black;
+  color: var(--moss);
 }
 
-footer {
-  background-color: #004F59;
-}
-
+/* Animation */
 .grow {
   transition: all 0.2s ease-in-out;
 }
 
 .grow:hover {
   transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+  color: white;
+  background-color: var(--river);
+  background: linear-gradient(90deg, var(--river) 50%, var(--moss) 100%);
 }

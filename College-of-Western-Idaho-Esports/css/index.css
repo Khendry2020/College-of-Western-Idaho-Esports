@@ -1,9 +1,8 @@
-/*
-Colors: 
-Moss - #00BB31
-River - #004F59
-Mica - #C7C9C7
-*/
+:root {
+  --river: #004F59;
+  --mica: #C7C9C7;
+  --moss: #00BB31;
+}
 /* Landing Image/Text */
 #landing {
   position: relative;
@@ -18,13 +17,25 @@ Mica - #C7C9C7
 }
 
 .btn {
-  background-color: #004F59;
-  color: White;
+  background-color: var(--moss);
+  color: black;
+  font-size: 22px;
+}
+
+.btn:hover {
+  background-color: var(--river);
+  color: white;
+}
+
+#GamingClubLogo {
+  position: absolute;
+  left: 33.5%;
+  top: 2%;
 }
 
 /* Info Cards */
 .card {
-  background-color: #004F59;
+  background-color: var(--river);
   color: White;
 }
 #ourTeam {
