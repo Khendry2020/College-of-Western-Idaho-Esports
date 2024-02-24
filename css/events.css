@@ -1,11 +1,10 @@
-/*
-Colors: 
-Moss - #00BB31
-River - #004F59
-Mica - #C7C9C7
-*/
+:root {
+  --river: #004F59;
+  --mica: #C7C9C7;
+  --moss: #00BB31;
+}
 #eventsHeader {
-  background-color: #004F59;
+  background-color: var(--river);
 }
 /* Events Card */
 #eventsImg {
@@ -17,13 +16,13 @@ Mica - #C7C9C7
 }
 
 .card {
-  background-color: #004F59;
+  background-color: var(--river);
   color: White;
 }
 
 .card .btn {
-  background-color: #C7C9C7;
-  color: #025252;
+  background-color: var(--moss);
+  color: black;
 }
 
 .row {
