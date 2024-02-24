@@ -1,26 +1,28 @@
 /*
 Colors: 
-Green - #3eac19
-Turquise - #025252
-White - rgb(245, 245, 245)
+Moss - #00BB31
+River - #004F59
+Mica - #C7C9C7
 */
-/*Remove*/
 @font-face {
-  font-family: RobotoMono;
-  src: url("..fonts/RobotoMono.ttf") format("ttf");
+  font-family: 'Mulish';
+  src: url("../fonts/Mulish-Light.ttf") format("ttf");
 }
+
 body {
-  background-color: rgb(216, 212, 212);
-  color: rgb(245, 245, 245);
+  background-color: #C7C9C7;
+  font-family: 'Mulish';
+  color: #C7C9C7;
 }
 
 .navbar {
-  background-color: #025252;
+  background-color: #004F59;
+  font-family: 'Mulish';
   padding-right: 100px;
 }
 
 .nav-link {
-  color: rgb(245, 245, 245);
+  color: white;
   text-decoration: none;
 }
 
@@ -29,7 +31,7 @@ body {
 }
 
 footer {
-  background-color: #025252;
+  background-color: #004F59;
 }
 
 .grow {
