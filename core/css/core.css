@@ -13,7 +13,7 @@ Mica - #C7C9C7
 
 @font-face {
   font-family: 'Mulish';
-  src: url("../fonts/Mulish-Light.ttf") format("ttf");
+  src: url("../fonts/Mulish-Light.woff2") format("woff2");
 }
 
 body {
