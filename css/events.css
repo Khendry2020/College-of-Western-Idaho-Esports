@@ -1,5 +1,10 @@
+:root {
+  --river: #004F59;
+  --mica: #C7C9C7;
+  --moss: #00BB31;
+}
 #eventsHeader {
-  background-color: #025252;
+  background-color: var(--river);
 }
 /* Events Card */
 #eventsImg {
@@ -11,13 +16,13 @@
 }
 
 .card {
-  background-color: #025252;
+  background-color: var(--river);
   color: White;
 }
 
 .card .btn {
-  background-color: rgb(216, 212, 212);
-  color: #025252;
+  background-color: var(--moss);
+  color: black;
 }
 
 .row {
