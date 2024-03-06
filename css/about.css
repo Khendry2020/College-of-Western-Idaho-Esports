@@ -1,0 +1,14 @@
+:root {
+    --river: #004F59;
+    --mica: #C7C9C7;
+    --moss: #00BB31;
+  }
+
+#about p{
+    color: var(--river);
+}
+
+#about h1 {
+    color: var(--river);
+    font-weight: bold;
+}
