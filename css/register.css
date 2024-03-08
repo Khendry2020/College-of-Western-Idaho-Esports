@@ -1,0 +1,54 @@
+/* Variables */
+:root {
+    --river: #004F59;
+    --mica: #C7C9C7;
+    --moss: #00BB31;
+  }
+
+/* Columns */
+#esportsRegister{
+    padding-bottom: 2%;
+}
+
+#gamingClub {
+    border-color: var(--moss) !important; /* Border between columns */
+    padding-right: 2px;
+    padding-bottom: 2%;
+}
+
+@media only screen and (max-width: 750px) {
+    #gamingClub {
+        padding-right: 0px;
+        border-color: white !important;
+    }
+}
+
+
+/* Button*/
+.btn {
+    font-size: 20px;
+}
+
+/* Register Banner */
+#registerBanner {
+    padding-top: 1.5%;
+}
+
+/* Header */
+h1 {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    color: var(--river);
+}
+
+h3 {
+    color: var(--river);
+}
+
+/* Text Container */
+.container {
+    background: rgba(199,201,199, 0.18);
+    color: var(--river);
+    margin-bottom: 2%;
+    border-color: var(--moss) !important;
+}

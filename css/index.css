@@ -17,18 +17,8 @@
   transform: translate(-50%, -50%);
 }
 
-.btn {
-  background-color: var(--moss);
-  color: black;
-  font-size: 22px;
-}
-
 .card:hover {
   background-color: var(--moss);
-}
-.btn:hover {
-  background-color: var(--river);
-  color: white;
 }
 
 #GamingClubLogo {

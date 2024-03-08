@@ -23,8 +23,23 @@
 .card .btn {
   background-color: var(--moss);
   color: black;
+  font-size: 20px;
+}
+
+.card .btn:Hover {
+  background-color: #009427;
+  color: black;
+  font-size: 20px;
 }
 
 .row {
   padding-top: 50px;
+}
+
+.container {
+  background: rgba(199,201,199, 0.18);
+  color: var(--river);
+  margin-bottom: 2%;
+  margin-top: 2%;
+  border-color: var(--moss) !important;
 }
