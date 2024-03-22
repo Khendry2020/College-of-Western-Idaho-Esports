@@ -1,0 +1,34 @@
+:root {
+    --river: #004F59;
+    --mica: #C7C9C7;
+    --moss: #00BB31;
+  }
+
+  h1 {
+    color: var(--river);
+    font-weight: bold;
+  }
+
+  img {
+    border-color:var(--moss) !important;
+    border: 2px solid !important; 
+    display: block;
+  }
+
+#photoGalleryItem{
+    width: 400px;
+    height: 250px;
+    overflow: hidden;
+    position: relative; 
+  }
+
+  .photoText {
+    display: none;
+  }
+
+  .photoGalleryItem:hover .photoText {
+    display: block;
+    position: absolute;
+    top: 60%;
+    background: rgba(7, 7, 7, 0.35); 
+  }
