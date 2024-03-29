@@ -24,6 +24,7 @@
 
   .photoText {
     display: none;
+    color: black;
   }
 
   .photoGalleryItem:hover .photoText {

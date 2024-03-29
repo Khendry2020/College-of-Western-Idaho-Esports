@@ -14,7 +14,7 @@ p {
   color: var(--river);
 }
 
-/* Events Card */
+/* Event Cards */
 #eventsImg {
   padding-top: 50px;
 }
@@ -27,6 +27,10 @@ p {
   background-color: var(--river);
   color: White;
   padding-top: 15px;
+}
+
+.card-text {
+  color: white;
 }
 
 .card .btn {
@@ -45,12 +49,24 @@ p {
   padding-top: 50px;
 }
 
+@media only screen and (max-width: 700px) {
+  .row {
+    padding: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .col {
+    padding: 0 !important;
+    padding-top: 5% !important;
+    margin: 16% !important;
+  }
+}
+
 .container {
-  /* background: rgba(199,201,199, 0.18); */
   color: var(--river);
   margin-bottom: 2%;
   margin-top: 2%;
-  /* border-color: var(--moss) !important; */
 }
 
 

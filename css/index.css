@@ -36,9 +36,22 @@
   padding-left: 15%;
 }
 
+@media only screen and (max-width: 700px) {
+  #ourTeam {
+    padding: 0 !important;
+    padding-top: 10% !important;
+  }
+}
 #Events {
   padding-top: 5%;
   padding-left: 40%;
+}
+
+@media only screen and (max-width: 700px) {
+  #Events {
+    padding: 0 !important;
+    padding-top: 10% !important;
+  }
 }
 
 #register {
@@ -47,15 +60,20 @@
   padding-bottom: 5%;
 }
 
+@media only screen and (max-width: 700px) {
+  #register {
+    padding: 0 !important;
+    padding-top: 10% !important;
+  }
+}
 /* Gaming Club Logo */
 
 /* ----4K Sizing---- */
-  #GamingClubLogo {
-    position: absolute;
-    left: 39.5%;
-    top: 4%;
-  }
-
+#GamingClubLogo {
+  position: absolute;
+  left: 39.5%;
+  top: 4%;
+}
 
 /* ----2k Sizing---- */
 @media only screen and (min-width: 2000px) and (max-width: 3000px) {
@@ -81,8 +99,7 @@
     display: none;
   }
 
-
-/* Learn More Button*/
+  /* Learn More Button*/
   #landing a {
     position: absolute;
     top: 60%;
