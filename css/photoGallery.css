@@ -5,6 +5,12 @@
   }
 
   h1 {
+    padding-top: 25px;
+    color: var(--river);
+    font-weight: bold;
+  }
+
+  h3 {
     color: var(--river);
     font-weight: bold;
   }
@@ -20,6 +26,7 @@
     height: 250px;
     overflow: hidden;
     position: relative; 
+
   }
 
   .photoText {
@@ -35,5 +42,5 @@
   }
 
   .row {
-    padding-top: 10%;
+    padding-bottom: 5%;
   } 
